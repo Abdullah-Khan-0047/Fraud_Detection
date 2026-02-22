@@ -1,0 +1,23 @@
+# 1. VIRTUAL ENVIRONMENTS (The 1,000+ files you saw)
+finenv/
+.venv/
+venv/
+env/
+dist/
+build/
+
+# 2. DATA & LARGE FILES (The Amaretto Dataset)
+data/
+*.csv
+*.zip
+*.parquet
+*.json
+# If you have a specific large file name:
+amaretto_full.txt
+
+# 3. SYSTEM & CACHE FILES
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.env
